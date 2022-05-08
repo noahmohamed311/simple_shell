@@ -1,0 +1,57 @@
+.TH hsh 1 "May 08, 2022" "1" "Simple Shell"
+
+.SH NAME
+
+.B Simple_shell -- hsh
+- A simple command line interpreter for linux
+
+.SH COPYRIGHT
+    Public Domain, no copyright protection
+
+.SH SYNOPSIS
+This shell mimics /bin/sh in it's funcationaly. It can be ran in both interacitve and noninteractive modes.
+
+
+.SH DESCRIPTION
+
+hsh is a command language interpreter that is able to execute commands given to it from the standard input.
+
+
+.SH BUILTINS
+
+The following builtin commands are supported:
+
+.IT
+.B env
+- prints the environment
+
+.B exit
+- exits the program
+
+.B cd
+- used to change directories
+
+.B clear
+- will clear the screen
+
+
+.SS Example
+.RS
+./hsh
+echo mom;
+
+mom
+
+.SH Options
+
+
+
+.SH BUGS
+
+Please report any issues to the authors.
+
+.SH "SEE ALSO"
+.SH ""
+
+.SH "AUTHOR"
+tim simmons 
